@@ -46,6 +46,21 @@ li.n1{
     }
 }
 
+@media only screen and (max-width: 900px){
+    .funciones div{
+	display: block;
+	margin: auto;
+	width: 90%;
+	margin-bottom: 5vh;
+    }
+    .btn:hover {
+    	background-color: #8D99AE;
+    	color: white;
+    	border-color: #8D99AE; 
+    }
+}
+
+
 .esp{
     height: 14vh;
 }
@@ -78,7 +93,12 @@ a.btn-outline-primary:hover{
     background-color: #8D99AE;
     border-color: #8D99AE;
 }
-#boton:active{
+#boton:active, #boton2:active{
+    background-color: #8D99AE;
+    color: white;
+    border-color: #8D99AE; 
+}
+#boton:hover, #boton2:hover{
     background-color: #8D99AE;
     color: white;
     border-color: #8D99AE; 
