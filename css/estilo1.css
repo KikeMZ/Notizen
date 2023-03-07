@@ -46,7 +46,7 @@ li.n1{
     }
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 700px){
     .funciones div{
 	display: block;
 	margin: auto;
