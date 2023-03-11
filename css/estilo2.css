@@ -1,0 +1,17 @@
+.logop{
+    width: 50px;
+    height: 52px;
+    margin-left: 10px;
+}
+#btn1{
+    margin-left: 25px;
+}
+#btn1:hover{
+    color: #8D99AE;
+}
+#btn1:active{
+    border-color: white;
+}
+.esp{
+    height: 14vh;
+}
